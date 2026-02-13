@@ -83,8 +83,7 @@ app.use((req, res, next) => {
 
   
   const port = parseInt(process.env.PORT || "5000", 10);
-  const host = process.env.VITE_HOST || "127.0.0.1";
-
+  const host = process.env.NODE_ENV === "production" ? "0.0.0.0" : (process.env.VITE_HOST || "127.0.0.1");
   httpServer.listen(
     {
     port,
