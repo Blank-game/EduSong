@@ -26,7 +26,7 @@ export async function generateMusicWithSuno(params: {
       style: params.style,
       prompt: params.lyrics,
       model: "V4_5",
-      callBackUrl: process.env.SUNO_CALLBACK_URL || "https://lytic-geognostical-tressie.ngrok-free.dev/api/suno/callback",
+      callBackUrl: process.env.SUNO_CALLBACK_URL || "https://edusong-production.up.railway.app/api/suno/callback",
     }),
   });
 
