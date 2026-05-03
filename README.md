@@ -2,7 +2,9 @@
 
 EduSong is a web application that transforms educational lesson content into culturally rich, AI-generated songs for primary school children in Sierra Leone and West Africa. Teachers upload lesson documents, and the application produces lyrics (using OpenAI) and full audio tracks (using the Suno AI music API), tailored to West African musical traditions and Sierra Leonean English.
 
+
 **Link to github repository**
+
 
 **Requirements**
 - Node.js
@@ -35,5 +37,20 @@ Configure environment variables (add your own):
 
 `DATABASE_URL=postgresql://user:password@host/dbname?sslmode=require`
 
-`NODE_ENV=production`
+`NODE_ENV=production` or `NODE_ENV=development` for development runs
 
+
+Set up database (to push schema to PostgreSQL database)
+
+`npm run db:push`
+
+
+To run in development
+
+`npm run dev`
+
+
+Deployment (Using Railway)
+- Sign into Railway using GitHub
+- Choose your EduSong repository for deployment
+- Use the deplyment url generated from Railway as the suno callback URL
