@@ -16,7 +16,7 @@ EduSong is a web application that transforms educational lesson content into cul
 
 **Steps to Get Started**
 
-Clone and install:
+_Clone and install:_
 
 `git clone https://github.com/your-username/EduSong.git`
 
@@ -25,7 +25,7 @@ Clone and install:
 `npm install`
 
 
-Configure environment variables (add your own):
+_Configure environment variables (add your own):_
 
 `OPENAI_API_KEY=your-openai-api-key-here`
 
@@ -40,17 +40,17 @@ Configure environment variables (add your own):
 `NODE_ENV=production` or `NODE_ENV=development` for development runs
 
 
-Set up database (to push schema to PostgreSQL database)
+_Set up database (to push schema to PostgreSQL database):_
 
 `npm run db:push`
 
 
-To run in development
+_To run in development:_
 
 `npm run dev`
 
 
-Deployment (Using Railway)
+_Deployment (Using Railway):_
 - Sign into Railway using GitHub
 - Choose your EduSong repository for deployment
 - Use the deplyment url generated from Railway as the suno callback URL
