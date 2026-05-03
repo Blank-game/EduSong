@@ -19,4 +19,10 @@ Clone and install:
 `git clone https://github.com/your-username/EduSong.git`
 
 `cd EduSong`
+
 `npm install`
+
+
+Configure environment variables (add your own):
+
+
