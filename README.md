@@ -2,7 +2,7 @@
 
 EduSong is a web application that transforms educational lesson content into culturally rich, AI-generated songs for primary school children in Sierra Leone and West Africa. Teachers upload lesson documents, and the application produces lyrics (using OpenAI) and full audio tracks (using the Suno AI music API), tailored to West African musical traditions and Sierra Leonean English.
 
-Link to github repository: 
+**Link to github repository**
 
 **Requirements**
 - Node.js
