@@ -8,6 +8,7 @@ EduSong is a web application that transforms educational lesson content into cul
 https://github.com/Blank-game/EduSong/tree/main
 
 
+
 **Requirements**
 - Node.js
 - A PostgreSQL database (e.g., Neon)
