@@ -25,4 +25,15 @@ Clone and install:
 
 Configure environment variables (add your own):
 
+`OPENAI_API_KEY=your-openai-api-key-here`
+
+`VITE_HOST=127.0.0.1`
+
+`SUNO_API_KEY=your-suno-api-key-here`
+
+`SUNO_CALLBACK_URL= https://your-domain.com/api/suno/callback`
+
+`DATABASE_URL=postgresql://user:password@host/dbname?sslmode=require`
+
+`NODE_ENV=production`
 
