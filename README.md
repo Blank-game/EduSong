@@ -14,4 +14,7 @@ EduSong is a web application that transforms educational lesson content into cul
 
 **Steps to Get Started**
 
-_Clone and install_
+Clone and install:
+`git clone https://github.com/your-username/EduSong.git`
+`cd EduSong`
+`npm install`
