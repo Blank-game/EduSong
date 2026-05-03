@@ -4,6 +4,7 @@ EduSong is a web application that transforms educational lesson content into cul
 
 
 **Link to github repository**
+https://github.com/Blank-game/EduSong/tree/main
 
 
 **Requirements**
